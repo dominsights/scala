@@ -1,0 +1,140 @@
+
+ü%src/main/scala/IntSet.scala* 
+_empty_/IntSet# *IntSet€*,
+_empty_/IntSet#`<init>`(). €@*<init>€*%
+_empty_/IntSet#incl(). *incl€*#
+_empty_/IntSet#incl().(x)*x€*-
+_empty_/IntSet#contains(). *contains€*'
+_empty_/IntSet#contains().(x)*x€*'
+_empty_/IntSet#union(). *union€*,
+_empty_/IntSet#union().(other)*other€*
+_empty_/Empty.
+ *Empty€**
+_empty_/Empty.contains().*contains€*&
+_empty_/Empty.contains().(x)*x€*"
+_empty_/Empty.incl().*incl€*"
+_empty_/Empty.incl().(x)*x€*$
+_empty_/Empty.union().*union€*+
+_empty_/Empty.union().(other)*other€*"
+_empty_/NonEmpty#*NonEmpty€*.
+_empty_/NonEmpty#`<init>`(). €@*<init>€*/
+"_empty_/NonEmpty#`<init>`().(elem)*elem€*/
+"_empty_/NonEmpty#`<init>`().(left)*left€*1
+#_empty_/NonEmpty#`<init>`().(right)*right€*&
+_empty_/NonEmpty#elem. €*elem€*&
+_empty_/NonEmpty#left. €*left€*(
+_empty_/NonEmpty#right. €*right€*-
+_empty_/NonEmpty#contains().*contains€*)
+_empty_/NonEmpty#contains().(x)*x€*%
+_empty_/NonEmpty#incl().*incl€*%
+_empty_/NonEmpty#incl().(x)*x€*'
+_empty_/NonEmpty#union().*union€*.
+ _empty_/NonEmpty#union().(other)*other€2
+ _empty_/IntSet#2(
+ _empty_/IntSet#`<init>`().2$
+ 
+_empty_/IntSet#incl().2'
+ _empty_/IntSet#incl().(x)2
+ 
+scala/Int#2
+ _empty_/IntSet#2(
+ _empty_/IntSet#contains().2+
+ _empty_/IntSet#contains().(x)2
+ 
+scala/Int#2
+ scala/Boolean#2%
+ _empty_/IntSet#union().2,
+ _empty_/IntSet#union().(other)2
+ _empty_/IntSet#2
+ "_empty_/IntSet#2
+ _empty_/Empty.2(
+ _empty_/IntSet#`<init>`().2
+ _empty_/IntSet#2'
+ _empty_/Empty.contains().2*
+ _empty_/Empty.contains().(x)2
+ 
+scala/Int#2
+ scala/Boolean#2#
+ 
+_empty_/Empty.incl().2&
+ _empty_/Empty.incl().(x)2
+ 
+scala/Int#2
+ _empty_/IntSet#2*
+% %_empty_/NonEmpty#`<init>`().2
+ %_empty_/NonEmpty#2&
+& '_empty_/Empty.incl().(x)2
+) ._empty_/Empty.2
+0 5_empty_/Empty.2$
+		 _empty_/Empty.union().2+
+		 _empty_/Empty.union().(other)2
+		 _empty_/IntSet#2
+		 "_empty_/IntSet#2+
+	%	 *_empty_/Empty.union().(other)2
+ _empty_/NonEmpty#2*
+ _empty_/NonEmpty#`<init>`().2
+ 
+scala/Int#2
+  &_empty_/IntSet#2
+/ 5_empty_/IntSet#2(
+E E_empty_/IntSet#`<init>`().2
+? E_empty_/IntSet#2$
+ _empty_/NonEmpty#elem.2$
+ _empty_/NonEmpty#left.2%
+( -_empty_/NonEmpty#right.2*
+ _empty_/NonEmpty#contains().2-
+ _empty_/NonEmpty#contains().(x)2
+ 
+scala/Int#2
+ scala/Boolean#2 
+	 
+scala/Int#`<`(+3).2-
+ _empty_/NonEmpty#contains().(x)2$
+ _empty_/NonEmpty#elem.2(
+ "_empty_/IntSet#contains().2$
+ _empty_/NonEmpty#left.2-
+# $_empty_/NonEmpty#contains().(x)2 
+ scala/Int#`>`(+3).2-
+ _empty_/NonEmpty#contains().(x)2$
+ _empty_/NonEmpty#elem.2(
+  (_empty_/IntSet#contains().2%
+ _empty_/NonEmpty#right.2-
+) *_empty_/NonEmpty#contains().(x)2&
+ 
+_empty_/NonEmpty#incl().2)
+ _empty_/NonEmpty#incl().(x)2
+ 
+scala/Int#2
+ _empty_/IntSet#2 
+	 
+scala/Int#`<`(+3).2)
+ _empty_/NonEmpty#incl().(x)2$
+ _empty_/NonEmpty#elem.2*
+ _empty_/NonEmpty#`<init>`().2
+ _empty_/NonEmpty#2$
+ "_empty_/NonEmpty#elem.2$
+) -_empty_/IntSet#incl().2$
+$ (_empty_/NonEmpty#left.2)
+. /_empty_/NonEmpty#incl().(x)2%
+2 7_empty_/NonEmpty#right.2 
+ scala/Int#`>`(+3).2)
+ _empty_/NonEmpty#incl().(x)2$
+ _empty_/NonEmpty#elem.2*
+" "_empty_/NonEmpty#`<init>`().2
+ "_empty_/NonEmpty#2$
+# '_empty_/NonEmpty#elem.2$
+) -_empty_/NonEmpty#left.2$
+5 9_empty_/IntSet#incl().2%
+/ 4_empty_/NonEmpty#right.2)
+: ;_empty_/NonEmpty#incl().(x)2'
+ _empty_/NonEmpty#union().2.
+  _empty_/NonEmpty#union().(other)2
+ _empty_/IntSet#2
+ "_empty_/IntSet#2$
+# '_empty_/IntSet#incl().2%
+ _empty_/IntSet#union().2%
+	 _empty_/IntSet#union().2$
+ _empty_/NonEmpty#left.2%
+ _empty_/NonEmpty#right.2.
+ ! _empty_/NonEmpty#union().(other)2$
+( ,_empty_/NonEmpty#elem.PZ 34EAD704F9DFF3AF79BFEA1FE22AC26B
