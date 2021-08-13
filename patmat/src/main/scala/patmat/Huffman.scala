@@ -87,7 +87,7 @@ trait Huffman extends HuffmanInterface:
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-  def singleton(trees: List[CodeTree]): Boolean = ???
+  def singleton(trees: List[CodeTree]): Boolean = trees.size == 1
 
   /**
    * The parameter `trees` of this function is a list of code trees ordered
@@ -101,7 +101,13 @@ trait Huffman extends HuffmanInterface:
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-  def combine(trees: List[CodeTree]): List[CodeTree] = ???
+  def combine(trees: List[CodeTree]): List[CodeTree] = 
+    if trees.size <= 2 then trees
+    else 
+      val tail = trees.tail
+      val head = trees.head
+      val combined = makeCodeTree(head, tail.head)
+      combine(combined +: tail.tail)
 
   /**
    * This function will be called in the following way:
@@ -114,7 +120,10 @@ trait Huffman extends HuffmanInterface:
    * In such an invocation, `until` should call the two functions until the list of
    * code trees contains only one single tree, and then return that singleton list.
    */
-  def until(done: List[CodeTree] => Boolean, merge: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = ???
+  def until(done: List[CodeTree] => Boolean, merge: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = 
+    if done(trees) then trees
+    else
+      merge(trees)
 
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
