@@ -131,8 +131,10 @@ trait Huffman extends HuffmanInterface:
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-  def createCodeTree(chars: List[Char]): CodeTree = ???
-
+  def createCodeTree(chars: List[Char]): CodeTree = 
+    val freqs = times(chars)
+    val trees = makeOrderedLeafList(freqs)
+    until(singleton, combine)(trees).head
 
   // Part 3: Decoding
 
