@@ -14,6 +14,16 @@ class HuffmanSuite extends munit.FunSuite:
       assertEquals(weight(t1), 5)
   }
 
+  test("times a char appears in text") {
+    val expected: List[(Char, Int)] = List(('a', 2), ('b', 1))
+    assertEquals(expected, times(List('a', 'b', 'a')))
+  }
+
+  test("ordered leaf list") {
+    val frequencies = times(List('a', 'b', 'a'))
+    val expected: List[Leaf] = List(Leaf('b', 1), Leaf('a', 2))
+    assertEquals(expected, makeOrderedLeafList(frequencies))
+  }
 
   test("chars of a larger tree (10pts)") {
     new TestTrees:
