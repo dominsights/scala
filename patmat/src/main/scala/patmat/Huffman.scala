@@ -80,7 +80,9 @@ trait Huffman extends HuffmanInterface:
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ???
+  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = 
+    freqs.sortBy(f => f(1))
+    .map(f => Leaf(f(0), f(1)))
 
   /**
    * Checks whether the list `trees` contains only one single code tree.
