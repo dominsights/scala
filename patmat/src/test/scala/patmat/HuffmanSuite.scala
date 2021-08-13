@@ -25,6 +25,16 @@ class HuffmanSuite extends munit.FunSuite:
     assertEquals(expected, makeOrderedLeafList(frequencies))
   }
 
+  test("singleton") {
+    val leaf = List(Leaf('a', 2))
+    assert(singleton(leaf))
+  }
+
+  test("not a singleton") {
+    val leafs = List(Leaf('a', 2), Leaf('b', 1))
+    assert(!singleton(leafs))
+  }
+
   test("chars of a larger tree (10pts)") {
     new TestTrees:
       assertEquals(chars(t2), List('a','b','d'))
