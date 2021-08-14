@@ -1,0 +1,5 @@
+[0m2021.08.14 15:12:36 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.14 15:12:38 INFO  time: initialize in 1.61s[0m
+[0m2021.08.14 15:12:38 WARN  Build server is not auto-connectable.[0m
+Aug 14, 2021 3:12:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
