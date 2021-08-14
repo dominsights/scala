@@ -182,3 +182,41 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.08.14 15:13:53 INFO  time: Connected to build server in 3.29s[0m
 [0m2021.08.14 15:13:53 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
 [0m2021.08.14 15:13:57 INFO  time: indexed workspace in 4.23s[0m
+[0m2021.08.14 15:16:32 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:16:33 INFO  time: compiled democracy in 1.07s[0m
+[0m2021.08.14 15:52:25 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:52:25 INFO  time: compiled democracy in 0.3s[0m
+[0m2021.08.14 15:52:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:52:37 INFO  time: compiled democracy in 73ms[0m
+[0m2021.08.14 15:52:40 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:52:40 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.08.14 15:55:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:55:55 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.08.14 15:56:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:56:48 INFO  time: compiled democracy in 80ms[0m
+[0m2021.08.14 15:56:53 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:56:53 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.08.14 15:57:00 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:57:00 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.08.14 15:57:18 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:57:18 INFO  time: compiled democracy in 0.23s[0m
+[0m2021.08.14 15:57:31 INFO  compiling democracy-test (1 scala source)[0m
+[0m2021.08.14 15:57:31 INFO  time: compiled democracy-test in 0.51s[0m
+Aug 14, 2021 3:58:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+[0m2021.08.14 15:58:07 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:58:07 INFO  time: compiled democracy in 0.19s[0m
+[0m2021.08.14 15:58:18 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 15:58:18 INFO  time: compiled democracy in 0.22s[0m
+[0m2021.08.14 16:03:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 16:03:12 INFO  time: compiled democracy in 0.22s[0m
+[0m2021.08.14 16:05:34 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 16:05:34 INFO  time: compiled democracy in 0.37s[0m
+[0m2021.08.14 16:09:19 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 16:09:19 INFO  time: compiled democracy in 0.4s[0m
+[0m2021.08.14 16:35:27 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 16:35:27 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.08.14 16:41:20 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 16:41:20 INFO  time: compiled democracy in 0.39s[0m
+Aug 14, 2021 5:03:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1108

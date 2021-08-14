@@ -22,3 +22,6 @@ democracy/project/project/target/
 democracy/project/
 democracy/target/
 democracy/.metals/*
+democracy/.bloop/
+democracy/.metals/metals.log
+democracy/.bsp/sbt.json
