@@ -107,7 +107,7 @@ trait Huffman extends HuffmanInterface:
       val tail = trees.tail
       val head = trees.head
       val combined = makeCodeTree(head, tail.head)
-      combine(combined +: tail.tail)
+      combine(combined :: tail.tail)
 
   /**
    * This function will be called in the following way:
@@ -132,9 +132,10 @@ trait Huffman extends HuffmanInterface:
    * frequencies from that text and creates a code tree based on them.
    */
   def createCodeTree(chars: List[Char]): CodeTree = 
-    val freqs = times(chars)
-    val trees = makeOrderedLeafList(freqs)
-    until(singleton, combine)(trees).head
+    val trees = makeOrderedLeafList(times(chars))
+    val left :: right :: Nil = until(singleton, combine)(trees)
+
+    Fork(left, right, Huffman.chars(left) ::: Huffman.chars(right), weight(left) + weight(right))
 
   // Part 3: Decoding
 

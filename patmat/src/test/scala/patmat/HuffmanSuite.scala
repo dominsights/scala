@@ -22,7 +22,7 @@ class HuffmanSuite extends munit.FunSuite:
   test("ordered leaf list") {
     val frequencies = times(List('a', 'b', 'a'))
     val expected: List[Leaf] = List(Leaf('b', 1), Leaf('a', 2))
-    assertEquals(expected, makeOrderedLeafList(frequencies))
+    assertEquals(makeOrderedLeafList(frequencies), expected)
   }
 
   test("singleton") {
@@ -33,6 +33,23 @@ class HuffmanSuite extends munit.FunSuite:
   test("not a singleton") {
     val leafs = List(Leaf('a', 2), Leaf('b', 1))
     assert(!singleton(leafs))
+  }
+
+  test("combine 3 leafs") {
+    val leafs = List(Leaf('a', 1), Leaf('b', 2), Leaf('c', 3))
+    val left = Leaf('a', 1)
+    val right = Leaf('b', 2)
+    val fork = Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
+    assertEquals(combine(leafs), List(fork, Leaf('c', 3)))
+  }
+
+  test("create code tree") {
+    val leftL = Leaf('a', 1)
+    val rightL = Leaf('b', 2)
+    val fork = Fork(leftL, rightL, chars(leftL) ::: chars(rightL), weight(leftL) + weight(rightL))
+    val right = Leaf('c', 3)
+    val expected = Fork(fork, right, chars(fork) ::: chars(right), weight(fork) + weight(right))
+    assertEquals(createCodeTree(List('a', 'b', 'b', 'c', 'c', 'c')), expected)
   }
 
   test("chars of a larger tree (10pts)") {
