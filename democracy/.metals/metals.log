@@ -220,3 +220,107 @@ WARNING: Unmatched cancel notification for request id 499
 [0m2021.08.14 16:41:20 INFO  time: compiled democracy in 0.39s[0m
 Aug 14, 2021 5:03:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1108
+[0m2021.08.14 19:55:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 19:55:47 INFO  time: compiled democracy in 97ms[0m
+[0m2021.08.14 20:05:21 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:05:21 INFO  time: compiled democracy in 92ms[0m
+[0m2021.08.14 20:06:07 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:06:07 INFO  time: compiled democracy in 0.32s[0m
+[0m2021.08.14 20:06:39 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:06:39 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.08.14 20:06:41 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:06:41 INFO  time: compiled democracy in 0.23s[0m
+[0m2021.08.14 20:06:43 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:06:43 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.08.14 20:06:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:06:58 INFO  time: compiled democracy in 90ms[0m
+[0m2021.08.14 20:08:40 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:08:40 INFO  time: compiled democracy in 0.22s[0m
+[0m2021.08.14 20:11:10 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:11:10 INFO  time: compiled democracy in 79ms[0m
+Aug 14, 2021 8:11:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1902
+[0m2021.08.14 20:11:19 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:11:19 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.08.14 20:11:36 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:11:36 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.08.14 20:11:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:11:48 INFO  time: compiled democracy in 0.19s[0m
+[0m2021.08.14 20:11:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:11:58 INFO  time: compiled democracy in 0.21s[0m
+[0m2021.08.14 20:12:44 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:12:44 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.08.14 20:12:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:12:58 INFO  time: compiled democracy in 0.19s[0m
+[0m2021.08.14 20:18:20 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:18:20 INFO  time: compiled democracy in 0.39s[0m
+[0m2021.08.14 20:19:00 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:19:00 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:19:13 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:19:13 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:20:25 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:20:25 INFO  time: compiled democracy in 0.62s[0m
+[0m2021.08.14 20:21:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:21:48 INFO  time: compiled democracy in 96ms[0m
+[0m2021.08.14 20:22:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:22:12 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:23:11 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:23:11 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.08.14 20:23:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:23:28 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.08.14 20:23:36 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:23:36 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.08.14 20:24:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:24:47 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:24:52 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:24:52 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:25:11 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:25:11 INFO  time: compiled democracy in 0.28s[0m
+Exception in thread "pool-4-thread-1" java.lang.StringIndexOutOfBoundsException: begin 5979, end 5840, length 6056
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.pc.CompletionPos$.infer(CompletionPos.scala:46)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-2" java.lang.StringIndexOutOfBoundsException: begin 5979, end 5840, length 6056
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.pc.CompletionPos$.infer(CompletionPos.scala:46)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-3" java.lang.StringIndexOutOfBoundsException: begin 5979, end 5840, length 6056
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.pc.CompletionPos$.infer(CompletionPos.scala:46)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.08.14 20:26:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:26:12 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.08.14 20:26:40 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:26:40 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.08.14 20:26:50 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:26:50 INFO  time: compiled democracy in 0.3s[0m
+[0m2021.08.14 20:27:38 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:27:38 INFO  time: compiled democracy in 0.22s[0m
+[0m2021.08.14 20:28:46 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:28:46 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.08.14 20:45:00 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.14 20:45:00 INFO  time: compiled democracy in 0.31s[0m

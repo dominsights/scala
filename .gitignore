@@ -25,3 +25,4 @@ democracy/.metals/*
 democracy/.bloop/
 democracy/.metals/metals.log
 democracy/.bsp/sbt.json
+democracy/src/main/scala/democracy/MajorityJudgement.scala
