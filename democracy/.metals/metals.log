@@ -324,3 +324,762 @@ Exception in thread "pool-4-thread-3" java.lang.StringIndexOutOfBoundsException:
 [0m2021.08.14 20:28:46 INFO  time: compiled democracy in 0.31s[0m
 [0m2021.08.14 20:45:00 INFO  compiling democracy (1 scala source)[0m
 [0m2021.08.14 20:45:00 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.08.15 19:30:59 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...[0m
+2021.08.15 19:30:59 No more data in the server stdin, exiting...INFO  
+Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+[0m2021.08.15 19:30:59 No more data in the server stdin, exiting...INFO  Shut down connection with build server.
+[0mNo more data in the client stdin, exiting...
+
+[0m2021.08.15 19:30:59 INFO No more data in the client stdin, exiting... 
+Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.08.16 19:58:21 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.16 19:58:23 INFO  time: initialize in 1.42s[0m
+[0m2021.08.16 19:58:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12359431076770987958/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.16 19:58:23 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+[0m2021.08.16 19:58:25 INFO  shutting down Metals[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/domicio/source/scala/democracy/.bloop'...
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy.json'
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0.
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.0/scala3-compiler_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0/scala3-interfaces-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.0/scala3-tasty-inspector_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.0/scaladoc_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.0/tasty-core_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'democracy' from '/home/domicio/source/scala/democracy/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'democracy-test' from '/home/domicio/source/scala/democracy/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12359431076770987958/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12359431076770987958/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@1305e2ac rejected from java.util.concurrent.ThreadPoolExecutor@78bfa1e4[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 16]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.success(Promise.scala:86)
+	at scala.concurrent.Promise.success$(Promise.scala:86)
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:187)
+	at bloop.launcher.bsp.BspBridge.wireBspConnectionStreams(BspBridge.scala:253)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:109)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.08.16 19:59:28 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.16 19:59:29 INFO  time: initialize in 1.38s[0m
+[0m2021.08.16 19:59:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8075713583674453927/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.16 19:59:29 WARN  no build target for: /home/domicio/source/scala/democracy/src/main/scala/democracy/MajorityJudgement.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8075713583674453927/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8075713583674453927/bsp.socket...
+[0m2021.08.16 19:59:29 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.16 19:59:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.16 19:59:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4623555889547128021/bsp.socket'...
+[0m2021.08.16 19:59:30 INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16284350767547382056/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16284350767547382056/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16284350767547382056/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.16 19:59:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4623555889547128021/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4623555889547128021/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.16 19:59:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.16 19:59:30 INFO  time: Connected to build server in 0.44s[0m
+[0m2021.08.16 19:59:30 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.16 19:59:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Aug 16, 2021 7:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.08.16 19:59:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Aug 16, 2021 7:59:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5009)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.16 19:59:35 INFO  time: code lens generation in 5s[0m
+[0m2021.08.16 19:59:37 INFO  time: indexed workspace in 4.66s[0m
+Exception in thread "pool-4-thread-1" java.lang.StringIndexOutOfBoundsException: begin 5797, end 5786, length 6079
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.pc.CompletionPos$.infer(CompletionPos.scala:46)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-2" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.List.flatMap(List.scala:295)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.scopeSymbols(IndexedContext.scala:94)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.scopeSymbols$$anonfun$1(IndexedContext.scala:94)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper$$Lambda$4699/0x0000000101837840.apply(Unknown Source)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.scopeSymbols(IndexedContext.scala:94)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.scopeSymbols$$anonfun$1(IndexedContext.scala:94)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper$$Lambda$4699/0x0000000101837840.apply(Unknown Source)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.scopeSymbols(IndexedContext.scala:94)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:61)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:146)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:42)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:157)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$4432/0x0000000101769840.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$4433/0x000000010176a040.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$2705/0x0000000100e53840.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 55,
+      "uri": "file:///home/domicio/source/scala/democracy/src/main/scala/democracy/MajorityJudgement.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package democracy\n\n/**\n * A grade to assign to a candidate. There are seven possible grades (from\n * the worst to the best): `Bad`, `Mediocre`, `Inadequate`, `Passable`, `Good`,\n * `VeryGood`, and `Excellent`.\n *\n * Grades can be compared by using their `ordinal` method:\n *\n * {{{\n *   Grade.Mediocre.ordinal \u003c Grade.Good.ordinal\n * }}}\n */\nenum Grade:\n  case Bad, Mediocre, Inadequate, Passable, Good, VeryGood, Excellent\n\nobject Grade:\n  /**\n   * @return The median grade of a collection of grades.\n   *\n   * The median grade can be computed by sorting the collection\n   * and taking the element in the middle. If there are an even\n   * number of grades, any of the two grades that are just before\n   * of after the middle of the sequence are correct median values.\n   *\n   * Grades can be compared by using their `ordinal` method.\n   *\n   * Hints: use the following operations:\n   * - `sortBy` and `ordinal` to sort the collection of grades,\n   * - `size` to compute the number of elements,\n   * - `apply` to select an element at a specific index.\n   */\n  def median(grades: Seq[Grade]): Grade \u003d \n    val sorted \u003d grades.sortBy(x \u003d\u003e x.ordinal)\n    val medianIndex \u003d sorted.size / 2\n    sorted(medianIndex)\n\nend Grade\n\n/**\n * A candidate in an election.\n * @param name (unique) name of the candidate (e.g., “Barack Obama”)\n */\ncase class Candidate(name: String)\n\n/**\n * A ballot, which assigns a grade to each candidate of an election.\n * @param grades The grades assigned to each candidate\n */\ncase class Ballot(grades: Map[Candidate, Grade])\n\n/**\n * An election is defined by a simple description and a set of possible\n * candidates.\n * @param description  Description of the election (e.g., “Presidential Election”)\n * @param candidates Possible candidates\n */\ncase class Election(description: String, candidates: Set[Candidate]):\n  /**\n   * @return The candidate that wins this election, according to the Majority\n   *         Judgement voting process.\n   *\n   * @param ballots The ballots for this election\n   *\n   * The ballots \u0027\u0027must\u0027\u0027 assign a grade to each of the `candidates` of this\n   * election.\n   */\n  def elect(ballots: Seq[Ballot]): Candidate \u003d\n    assert(ballots.nonEmpty)\n    assert(ballots.forall(_.grades.keySet \u003d\u003d candidates))\n\n    // Re-structure the data to get all the grades assigned to\n    // each candidate by all the voters\n\n    // First step: use the operation `flatMap` to flatten the ballots\n    // into a single sequence containing the grades assigned to each\n    // candidate by the voters.\n    val allGrades: Seq[(Candidate, Grade)] \u003d\n      ballots.flatMap(b \u003d\u003e b.grades)\n\n    // Second step: use the operation `groupMap` to transform the\n    // collection of pairs of `(Candidate, Grade)` into a `Map`\n    // containing all the grades that were assigned to a given\n    // `Candidate`.\n    val gradesPerCandidate: Map[Candidate, Seq[Grade]] \u003d\n      allGrades.groupMap(_._1)(_._2)\n\n    findWinner(gradesPerCandidate)\n  end elect\n\n  /**\n   * @return The winner of this election, according to the Majority Judgement\n   *         voting process.\n   *\n   * @param gradesPerCandidate The grades that have been assigned to each\n   *                             candidate by the voters.\n   */\n  def findWinner(gradesPerCandidate: Map[Candidate, Seq[Grade]]): Candidate \u003d\n    // In case all the candidates have an empty collection of grades (this\n    // can happen because of the tie-breaking algorithm, see below), the winner\n    // is chosen by lottery from among the candidates.\n    if gradesPerCandidate.forall((candidate, grades) \u003d\u003e grades.isEmpty) then\n      val candidatesSeq \u003d gradesPerCandidate.keys.toSeq\n      val randomIndex   \u003d util.Random.between(0, candidatesSeq.size)\n      candidatesSeq(randomIndex)\n    else\n      // Otherwise, find the highest median grade assigned to a candidate.\n      // Use the operation `values` to select the collections of grades,\n      // then use the operation `filter` to keep only the non empty grades,\n      // then use the operation `map` to compute the median value of each collection\n      // of grades, and finally use the operation `maxBy` to find the highest\n      // median grade.\n      val bestMedianGrade: Grade \u003d\n        gradesPerCandidate\n          .values\n          .filter(g \u003d\u003e !g.isEmpty)\n          .map(g \u003d\u003e Grade.median(g))\n          .maxBy(m \u003d\u003e m.ordinal)\n\n      // Use the operation `filter` to select all the candidates that got the\n      // same best median grade (as the case may be)\n      val bestCandidates: Map[Candidate, Seq[Grade]] \u003d\n        gradesPerCandidate\n          .filter(g \u003d\u003e Grade.median(g._2).ordinal \u003d\u003d bestMedianGrade.ordinal)\n\n      // In case only one candidate got the best median grade, it’s the winner!\n      if bestCandidates.size \u003d\u003d 1 then\n        // Use the operation `head` to retrieve the only element\n        // of the collection `bestCandidates`\n        bestCandidates.head._1\n      else\n        // Otherwise, there is a tie between several candidates. The tie-breaking\n        // algorithm is the following:\n        // “If more than one candidate has the same highest median-grade, the winner is\n        // discovered by removing (one-by-one) any grades equal in value to the shared\n        // median grade from each tied candidate\u0027s total. This is repeated until only one\n        // of the previously tied candidates is currently found to have the highest\n        // median-grade.” (source: https://en.wikipedia.org/wiki/Majority_judgment)\n  \n        // Use the operation `map` to transform each element of the `bestCandidates`.\n        // And use the operation `diff` to remove one `bestMedianGrade` from the\n        // grades assigned to the candidates.\n        val bestCandidatesMinusOneMedianGrade: Map[Candidate, Seq[Grade]] \u003d\n          bestCandidates.flatMap(c \u003d\u003e c._2 diff Se)\n          bestCandidates.map(c \u003d\u003e (c._1 -\u003e c._2.diff(Seq(bestMedianGrade))))\n  \n        // Finally, call `findWinner` on the reduced collection of candidates,\n        // `bestCandidatesMinusOneMedianGrade`.\n        findWinner(bestCandidatesMinusOneMedianGrade)\n  end findWinner\n\nend Election\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.google.gson.internal.reflect.UnsafeReflectionAccessor.makeAccessibleWithUnsafe(UnsafeReflectionAccessor.java:58)
+	at com.google.gson.internal.reflect.UnsafeReflectionAccessor.makeAccessible(UnsafeReflectionAccessor.java:40)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields(ReflectiveTypeAdapterFactory.java:159)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.create(ReflectiveTypeAdapterFactory.java:102)
+	at com.google.gson.Gson.getAdapter(Gson.java:458)
+	at com.google.gson.Gson.fromJson(Gson.java:931)
+	at com.google.gson.Gson.fromJson(Gson.java:1003)
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments.liftedTree1$1(CommonMtagsEnrichments.scala:51)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments.$anonfun$decodeJson$1(CommonMtagsEnrichments.scala:47)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$$Lambda$1848/0x0000000100b0b040.apply(Unknown Source)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments.decodeJson(CommonMtagsEnrichments.scala:45)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments.decodeJson$(CommonMtagsEnrichments.scala:43)
+	at scala.meta.internal.metals.MetalsEnrichments$.decodeJson(MetalsEnrichments.scala:66)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionBuildTarget.asScalaBuildTarget(MetalsEnrichments.scala:81)
+	at scala.meta.internal.metals.BuildTargets.$anonfun$scalaInfo$1(BuildTargets.scala:237)
+	at scala.meta.internal.metals.BuildTargets$$Lambda$1914/0x0000000100b3b840.apply(Unknown Source)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.BuildTargets.scalaInfo(BuildTargets.scala:237)
+	at scala.meta.internal.metals.BuildTargets.$anonfun$buildTargetsOrder$1(BuildTargets.scala:72)
+	at scala.meta.internal.metals.BuildTargets.$anonfun$buildTargetsOrder$1$adapted(BuildTargets.scala:60)
+	at scala.meta.internal.metals.BuildTargets$$Lambda$89/0x000000010022c040.apply(Unknown Source)
+	at scala.collection.TraversableOnce$maxer$1.apply(TraversableOnce.scala:290)
+	at scala.collection.TraversableOnce$maxer$1.apply(TraversableOnce.scala:285)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Aug 16, 2021 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 115
+[0m2021.08.16 20:00:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.16 20:00:52 INFO  time: compiled democracy in 3.76s[0m
+[0m2021.08.16 20:00:52 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.16 20:00:54 INFO  time: compiled democracy in 1.44s[0m
+[0m2021.08.16 20:01:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.16 20:01:42 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.08.16 20:01:57 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.16 20:01:57 INFO  time: compiled democracy in 0.7s[0m
+Aug 16, 2021 8:03:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+[0m2021.08.16 20:03:54 INFO  compiling democracy (1 scala source)[0m
+[0m2021.08.16 20:03:54 INFO  time: compiled democracy in 0.67s[0m
+[0m2021.08.16 21:08:38 INFO  shutting down Metals[0m
+[0m2021.08.16 21:08:38 INFO  Shut down connection with build server.[0m
+[0m2021.08.16 21:08:38 INFO  Shut down connection with build server.[0m
+[0m2021.08.16 21:08:38 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.08.17 18:08:42 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.17 18:08:44 INFO  time: initialize in 1.47s[0m
+[0m2021.08.17 18:08:45 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.08.17 18:08:44 WARN  no build target for: /home/domicio/source/scala/democracy/src/main/scala/democracy/MajorityJudgement.scala[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12645987967553221923/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.17 18:08:44 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/domicio/source/scala/democracy/.bloop'...
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy-test.json'
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0.
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.0/scala3-compiler_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0/scala3-interfaces-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.0/scala3-tasty-inspector_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.0/scaladoc_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.0/tasty-core_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'democracy' from '/home/domicio/source/scala/democracy/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'democracy-test' from '/home/domicio/source/scala/democracy/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12645987967553221923/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12645987967553221923/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.17 18:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.17 18:08:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9728676983061060538/bsp.socket'...
+[0m2021.08.17 18:08:50 INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5314488596503068215/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9728676983061060538/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9728676983061060538/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5314488596503068215/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5314488596503068215/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.17 18:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.17 18:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.17 18:08:50 INFO  time: Connected to build server in 5.63s[0m
+[0m2021.08.17 18:08:50 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.17 18:08:50 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.17 18:08:50 INFO  time: Imported build in 0.12s[0m
+[0m2021.08.17 18:08:53 INFO  time: indexed workspace in 2.36s[0m
+[0m2021.08.17 21:38:24 INFO  shutting down Metals[0m
+[0m2021.08.17 21:38:24 INFO  Shut down connection with build server.[0m
+[0m2021.08.17 21:38:24 INFO  Shut down connection with build server.[0m
+[0m2021.08.17 21:38:24 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.08.18 07:09:05 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.18 07:09:06 INFO  time: initialize in 1.51s[0m
+[0m2021.08.18 07:09:07 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher445979643063421231/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.18 07:09:06 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/domicio/source/scala/democracy/.bloop'...
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy-test.json'
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0.
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.0/scala3-compiler_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0/scala3-interfaces-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.0/scala3-tasty-inspector_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.0/scaladoc_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.0/tasty-core_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'democracy' from '/home/domicio/source/scala/democracy/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'democracy-test' from '/home/domicio/source/scala/democracy/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher445979643063421231/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher445979643063421231/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.18 07:09:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 07:09:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.08.18 07:09:10 INFO Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12307763415772174194/bsp.socket'... Attempting to connect to the build server...
+[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9435303693743339298/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12307763415772174194/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12307763415772174194/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9435303693743339298/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9435303693743339298/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.18 07:09:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 07:09:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 07:09:11 INFO  time: Connected to build server in 3.9s[0m
+[0m2021.08.18 07:09:11 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.18 07:09:13 INFO  time: indexed workspace in 2.45s[0m
+[0m2021.08.18 18:22:37 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.18 18:22:38 INFO  time: initialize in 1.42s[0m
+[0m2021.08.18 18:22:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher13887508543809021915/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.18 18:22:42 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/domicio/source/scala/democracy/.bloop'...
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy.json'
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0.
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.0/scala3-compiler_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0/scala3-interfaces-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.0/scala3-tasty-inspector_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.0/scaladoc_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.0/tasty-core_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'democracy' from '/home/domicio/source/scala/democracy/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'democracy-test' from '/home/domicio/source/scala/democracy/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher13887508543809021915/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher13887508543809021915/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.18 18:22:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 18:22:46 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.08.18 18:22:46 INFO  Attempting to connect to the build server...Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher18293995338483327743/bsp.socket'...[0m
+
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9438854036032480236/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher18293995338483327743/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher18293995338483327743/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9438854036032480236/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9438854036032480236/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.18 18:22:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 18:22:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.18 18:22:46 INFO  time: Connected to build server in 3.76s[0m
+[0m2021.08.18 18:22:46 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.18 18:22:46 INFO  time: Imported build in 0.1s[0m
+[0m2021.08.18 18:22:48 INFO  time: indexed workspace in 2.42s[0m
+[0m2021.08.18 19:59:14 INFO  shutting down Metals[0m
+[0m2021.08.18 19:59:14 INFO  Shut down connection with build server.[0m
+[0m2021.08.18 19:59:14 INFO  Shut down connection with build server.[0m
+[0m2021.08.18 19:59:14 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.08.19 19:14:34 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/democracy' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.19 19:14:36 INFO  time: initialize in 1.55s[0m
+[0m2021.08.19 19:14:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher863866150928931417/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.19 19:14:36 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/domicio/source/scala/democracy/.bloop'...
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy-test.json'
+[0m[32m[D][0m Loading project from '/home/domicio/source/scala/democracy/.bloop/democracy.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0.
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.0/scala3-compiler_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0/scala3-interfaces-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.0/scala3-tasty-inspector_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.0/scaladoc_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.0/tasty-core_3-3.0.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'democracy' from '/home/domicio/source/scala/democracy/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'democracy-test' from '/home/domicio/source/scala/democracy/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher863866150928931417/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher863866150928931417/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.19 19:14:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.19 19:14:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6181021545010359397/bsp.socket'...
+[0m2021.08.19 19:14:40 INFO  Attempting to connect to the build server...Waiting for the bsp connection to come up...
+[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10089426378248718178/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6181021545010359397/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6181021545010359397/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10089426378248718178/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10089426378248718178/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.19 19:14:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.19 19:14:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.19 19:14:41 INFO  time: Connected to build server in 4.21s[0m
+[0m2021.08.19 19:14:41 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.19 19:14:41 INFO  time: Imported build in 0.1s[0m
+[0m2021.08.19 19:14:43 INFO  time: indexed workspace in 2.48s[0m
+[0m2021.08.19 19:17:07 INFO  shutting down Metals[0m
+[0m2021.08.19 19:17:07 INFO  Shut down connection with build server.[0m
+[0m2021.08.19 19:17:07 INFO  Shut down connection with build server.[0m
+[0m2021.08.19 19:17:07 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

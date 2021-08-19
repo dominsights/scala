@@ -26,3 +26,7 @@ democracy/.bloop/
 democracy/.metals/metals.log
 democracy/.bsp/sbt.json
 democracy/src/main/scala/democracy/MajorityJudgement.scala
+todo/project/project/project/target/*
+todo/project/project/target/*
+todo/project/target/*
+todo/target/
