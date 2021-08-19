@@ -34,6 +34,7 @@ object InMemoryModel extends Model:
 
   def create(task: Task): Id =
     val id = idGenerator.nextId()
+    idStore.put(id, task)
     id
 
   def read(id: Id): Option[Task] =

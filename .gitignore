@@ -32,3 +32,4 @@ todo/project/target/*
 todo/target/
 todo/.bloop/
 todo/project/.bloop/
+todo/.metals/
