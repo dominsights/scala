@@ -30,3 +30,5 @@ todo/project/project/project/target/*
 todo/project/project/target/*
 todo/project/target/*
 todo/target/
+todo/.bloop/
+todo/project/.bloop/

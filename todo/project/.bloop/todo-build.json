@@ -218,7 +218,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/domicio/.cache/coursier/jvm/adopt@1.11.0-11",
+                "home": "/usr/lib/jvm/java-11-openjdk-11.0.12.0.7-0.fc34.x86_64",
                 "options": [
                     "-Duser.dir=/home/domicio/source/scala/todo/project"
                 ]
