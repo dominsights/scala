@@ -41,7 +41,7 @@ object InMemoryModel extends Model:
     idStore.get(id)
 
   def complete(id: Id): Option[Task] =
-    None
+    idStore.find(t => t._1 == id).map(t => t._2.complete)
 
   def update(id: Id)(f: Task => Task): Option[Task] =
     idStore.updateWith(id)(opt => opt.map(f))
@@ -53,10 +53,10 @@ object InMemoryModel extends Model:
     Tasks(idStore)
 
   def tags: Tags =
-    Tags(List.empty)
+    Tags(idStore.flatMap(t => t._2.tags).toList.distinct)
 
   def tasks(tag: Tag): Tasks =
-    Tasks(idStore)
+    Tasks(idStore.filter(t => t._2.tags.contains(tag)))
 
   def clear(): Unit =
     idStore.clear()
