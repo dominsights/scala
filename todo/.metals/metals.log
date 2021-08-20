@@ -186,3 +186,394 @@ Aug 19, 2021 9:34:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 259
 [0m2021.08.19 21:35:05 INFO  compiling todo (1 scala source)[0m
 [0m2021.08.19 21:35:05 INFO  time: compiled todo in 0.51s[0m
+[0m2021.08.20 21:44:33 INFO  Started: Metals version 0.10.5 in workspace '/home/domicio/source/scala/todo' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.20 21:44:35 INFO  time: initialize in 1.47s[0m
+[0m2021.08.20 21:44:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.08.20 21:44:35 WARN  no build target for: /home/domicio/source/scala/todo/src/main/scala/todo/InMemoryModel.scala[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3226397815636359929/bsp.socket'...
+Waiting for the bsp connection to come up...[0m2021.08.20 21:44:36 WARN  no build target for: /home/domicio/source/scala/todo/src/test/scala/todo/TodoSuite.scala[0m
+
+[0m2021.08.20 21:44:36 WARN  no build target for: /home/domicio/source/scala/todo/src/main/scala/todo/PersistentModel.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3226397815636359929/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3226397815636359929/bsp.socket...
+[0m2021.08.20 21:44:36 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.20 21:44:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.20 21:44:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5318235677127094585/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.20 21:44:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5052405940806653014/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5318235677127094585/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5318235677127094585/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.20 21:44:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5052405940806653014/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5052405940806653014/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.20 21:44:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/domicio/.cache/metals/bsp.trace.json[0m
+[0m2021.08.20 21:44:36 INFO  time: Connected to build server in 0.61s[0m
+[0m2021.08.20 21:44:36 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.20 21:44:39 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Aug 20, 2021 9:44:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.08.20 21:44:39 WARN  no build target for: /home/domicio/source/scala/todo/src/main/scala/todo/PersistentModel.scala[0m
+Aug 20, 2021 9:44:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+[0m2021.08.20 21:44:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Aug 20, 2021 9:44:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 21:44:42 INFO  time: code lens generation in 5.97s[0m
+Aug 20, 2021 9:44:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Ftest%2Fscala%2Ftodo%2FTodoSuite.scala:10: error: ; expected but : found
+class TodoSuite extends FunSuite:
+                                ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Ftest%2Fscala%2Ftodo%2FTodoSuite.scala:10: error: ; expected but : found
+class TodoSuite extends FunSuite:
+                                ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 21:44:42 INFO  time: code lens generation in 6.2s[0m
+Aug 20, 2021 9:44:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 21:44:42 INFO  time: code lens generation in 6.33s[0m
+Aug 20, 2021 9:44:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 9:44:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Ftest%2Fscala%2Ftodo%2FTodoSuite.scala:10: error: ; expected but : found
+class TodoSuite extends FunSuite:
+                                ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Ftest%2Fscala%2Ftodo%2FTodoSuite.scala:10: error: ; expected but : found
+class TodoSuite extends FunSuite:
+                                ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 9:44:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 9:44:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+file%3A%2F%2F%2Fhome%2Fdomicio%2Fsource%2Fscala%2Ftodo%2Fsrc%2Fmain%2Fscala%2Ftodo%2FPersistentModel.scala:18: error: ; expected but : found
+object PersistentModel extends Model:
+                                    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5245)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 21:44:43 INFO  time: code lens generation in 3.78s[0m
+[0m2021.08.20 21:44:45 INFO  time: indexed workspace in 6.08s[0m
+[0m2021.08.20 21:44:45 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:44:45 INFO  time: compiled todo in 0.88s[0m
+[0m2021.08.20 21:46:01 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:46:01 INFO  time: compiled todo in 0.31s[0m
+[0m2021.08.20 21:46:12 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:46:12 INFO  time: compiled todo in 0.35s[0m
+Exception in thread "Thread-12" java.lang.OutOfMemoryError: Java heap space
+	at bloop.shaded.snailgun.protocol.Protocol$$Lambda$1017/0x0000000100715c40.get$Lambda(Unknown Source)
+	at java.base/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+	at bloop.shaded.snailgun.protocol.Protocol.$anonfun$createHeartbeatAndShutdownThread$1(Protocol.scala:219)
+	at bloop.shaded.snailgun.protocol.Protocol$$Lambda$599/0x0000000100570c40.apply$mcV$sp(Unknown Source)
+	at bloop.shaded.snailgun.protocol.Protocol$$anon$1.run(Protocol.scala:302)
+Exception in thread "pool-4-thread-1" java.lang.OutOfMemoryError: Java heap space
+Aug 20, 2021 9:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 199
+Aug 20, 2021 9:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+Aug 20, 2021 9:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 204
+Aug 20, 2021 9:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+[0m2021.08.20 21:48:13 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:48:13 INFO  time: compiled todo in 0.38s[0m
+[0m2021.08.20 21:48:53 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:48:53 INFO  time: compiled todo in 0.32s[0m
+Exception in thread "Thread-4" Exception in thread "pool-4-thread-2" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 318
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 322
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 326
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 336
+Aug 20, 2021 9:49:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 337
+[0m2021.08.20 21:49:53 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:49:53 INFO  time: compiled todo in 0.33s[0m
+[0m2021.08.20 21:54:19 INFO  compiling todo (1 scala source)[0m
+[0m2021.08.20 21:54:19 INFO  time: compiled todo in 0.29s[0m

@@ -95,29 +95,40 @@ object PersistentModel extends Model:
    * (The InMemoryModel uses the same.)
    */
 
+  private val idGenerator = IdGenerator(loadId())
+
   def create(task: Task): Id =
-    ???
+    val id = idGenerator.nextId()
+    val tasks = loadTasks().toList :+ (id,task) 
+    saveTasks(Tasks(tasks))
+    id
 
   def read(id: Id): Option[Task] =
-    ???
+    loadTasks().toMap.get(id)
 
   def update(id: Id)(f: Task => Task): Option[Task] =
-    ???
+    val updated = loadTasks().toMap.updatedWith(id)(opt => opt.map(f))
+    saveTasks(Tasks(updated))
+    updated.get(id)
 
   def delete(id: Id): Boolean =
-    ???
+    val tasks = loadTasks().toMap - id
+    saveTasks(Tasks(tasks))
+    !tasks.get(id).isDefined
 
   def tasks: Tasks =
-    ???
+    loadTasks()
 
   def tasks(tag: Tag): Tasks =
-    ???
+    Tasks(loadTasks().tasks.filter(t => t._2.tags.contains(tag)))
 
   def complete(id: Id): Option[Task] =
-    ???
+    val completed = loadTasks().toMap.updatedWith(id)(opt => opt.map(p => p.complete))
+    saveTasks(Tasks(completed))
+    completed.get(id)
 
   def tags: Tags =
-    ???
+    Tags(loadTasks().tasks.flatMap(t => t._2.tags).toList.distinct)
 
   def clear(): Unit =
-    ???
+    saveTasks(Tasks.empty)

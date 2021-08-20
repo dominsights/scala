@@ -84,6 +84,8 @@ class TodoSuite extends FunSuite:
     fixture.test("Deleted tasks are no longer read"){ case (name, model) =>
       val id1 = model.create(task1)
       val id2 = model.create(task2)
+      print("id1: " + id1)
+      print("id2: " + id2)
 
       assert(model.delete(id1), s"Using $name: We expected deleting $id1 to return true")
 
