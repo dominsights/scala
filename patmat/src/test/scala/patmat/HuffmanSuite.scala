@@ -52,6 +52,12 @@ class HuffmanSuite extends munit.FunSuite:
     assertEquals(createCodeTree(List('a', 'b', 'b', 'c', 'c', 'c')), expected)
   }
 
+  test("decode word") {
+    val tree = createCodeTree(List('f', 'a', 'd', 'a'))
+    val bits = List[Bit](0,0,1,0,1,1)
+    assertEquals(decode(tree, bits), List[Char]('f', 'a', 'd', 'a'))
+  }
+
   test("chars of a larger tree (10pts)") {
     new TestTrees:
       assertEquals(chars(t2), List('a','b','d'))
