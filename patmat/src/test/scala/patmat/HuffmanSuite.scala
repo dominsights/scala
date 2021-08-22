@@ -87,5 +87,10 @@ class HuffmanSuite extends munit.FunSuite:
       assertEquals(decode(t1, encode(t1)("ab".toList)), "ab".toList)
   }
 
+  test("convert") {
+    val tree = createCodeTree(List('f', 'a', 'd', 'a'))
+    println(convert(tree))
+  }
+
   import scala.concurrent.duration.*
   override val munitTimeout = 10.seconds
