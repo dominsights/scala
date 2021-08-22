@@ -191,10 +191,7 @@ trait Huffman extends HuffmanInterface:
       branch match
         case leaf: Leaf => 
           if !text.isEmpty && leaf.char == text.head then
-            if text.isEmpty then
-              acc :+ acc_bit
-            else
-              encode_iter(original_tree, text.tail, acc :+ acc_bit)
+            encode_iter(original_tree, text.tail, acc :+ acc_bit)
           else acc
         case fork: Fork =>
           if !text.isEmpty && fork.chars.contains(text.head) then
