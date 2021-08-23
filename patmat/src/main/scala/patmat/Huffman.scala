@@ -186,27 +186,14 @@ trait Huffman extends HuffmanInterface:
    * into a sequence of bits.
    */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = 
-    val original_tree = tree.asInstanceOf[Fork]
-    def match_iter(branch: CodeTree, text: List[Char], acc_bit: Bit, acc: List[Bit]) : List[Bit] = 
-      branch match
-        case leaf: Leaf => 
-          if !text.isEmpty && leaf.char == text.head then
-            encode_iter(original_tree, text.tail, acc :+ acc_bit)
-          else acc
-        case fork: Fork =>
-          if !text.isEmpty && fork.chars.contains(text.head) then
-            encode_iter(fork, text, acc :+ acc_bit)
-          else
-            acc
-
-    def encode_iter(tree: Fork, text: List[Char], acc: List[Bit]) : List[Bit] =
-      val a1 = match_iter(tree.left, text, 0, acc)
-      match_iter(tree.right, text, 1, a1)
-
-    tree match
-      case fork: Fork => 
-        encode_iter(fork, text, List[Bit]())
-      case _ => ???
+    def encode_iter(tree: CodeTree)(char: Char): List[Bit] = tree match
+      case leaf: Leaf => Nil
+      case fork: Fork =>
+        if chars(fork.left).contains(char) then
+          0 :: encode_iter(fork.left)(char)
+        else
+          1 :: encode_iter(fork.right)(char)
+    text flatMap encode_iter(tree)
 
   // Part 4b: Encoding using code table
 
