@@ -105,9 +105,7 @@ trait Huffman extends HuffmanInterface:
     if trees.size <= 2 then trees
     else 
       val tail = trees.tail
-      val head = trees.head
-      val combined = makeCodeTree(head, tail.head)
-      combine(combined :: tail.tail)
+      combine(makeCodeTree(trees.head, tail.head) :: tail.tail)
 
   /**
    * This function will be called in the following way:

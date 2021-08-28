@@ -33,3 +33,8 @@ todo/target/
 todo/.bloop/
 todo/project/.bloop/
 todo/.metals/
+quickcheck/project/project/project/target/
+quickcheck/project/project/target/
+quickcheck/project/project/project/project/target/
+quickcheck/project/target/
+quickcheck/target/
