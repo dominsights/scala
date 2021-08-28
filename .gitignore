@@ -40,3 +40,5 @@ quickcheck/project/target/
 quickcheck/target/
 quickcheck/.bloop/
 quickcheck/.metals/
+quickcheck/.bsp/
+quickcheck/project/project/.bloop/
