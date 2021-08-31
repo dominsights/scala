@@ -2,19 +2,19 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/home/domicio/_apps/classes",
-        "workspaceDir": "/home/domicio/_apps/classes",
+        "directory": "/home/domicio/source/scala/classes",
+        "workspaceDir": "/home/domicio/source/scala/classes",
         "sources": [
-            "/home/domicio/_apps/classes/src/test/scala",
-            "/home/domicio/_apps/classes/src/test/scala-3",
-            "/home/domicio/_apps/classes/src/test/java",
-            "/home/domicio/_apps/classes/target/scala-3.0.1/src_managed/test"
+            "/home/domicio/source/scala/classes/src/test/scala",
+            "/home/domicio/source/scala/classes/src/test/scala-3",
+            "/home/domicio/source/scala/classes/src/test/java",
+            "/home/domicio/source/scala/classes/target/scala-3.0.1/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/home/domicio/_apps/classes/.bloop/root/scala-3/classes",
+            "/home/domicio/source/scala/classes/.bloop/root/scala-3/classes",
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar",
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
@@ -22,11 +22,11 @@
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
         ],
-        "out": "/home/domicio/_apps/classes/.bloop/root",
-        "classesDir": "/home/domicio/_apps/classes/.bloop/root/scala-3/test-classes",
+        "out": "/home/domicio/source/scala/classes/.bloop/root",
+        "classesDir": "/home/domicio/source/scala/classes/.bloop/root/scala-3/test-classes",
         "resources": [
-            "/home/domicio/_apps/classes/src/test/resources",
-            "/home/domicio/_apps/classes/target/scala-3.0.1/resource_managed/test"
+            "/home/domicio/source/scala/classes/src/test/resources",
+            "/home/domicio/source/scala/classes/target/scala-3.0.1/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -79,7 +79,7 @@
                 "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar",
                 "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"
             ],
-            "analysis": "/home/domicio/_apps/classes/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
+            "analysis": "/home/domicio/source/scala/classes/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -143,7 +143,7 @@
             "config": {
                 "home": "/home/domicio/.cache/coursier/jvm/adopt@1.11.0-11",
                 "options": [
-                    "-Duser.dir=/home/domicio/_apps/classes"
+                    "-Duser.dir=/home/domicio/source/scala/classes"
                 ]
             },
             "mainClass": [

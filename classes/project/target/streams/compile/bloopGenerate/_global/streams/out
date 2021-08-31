@@ -1,4 +1,4 @@
-[debug] [classes-build] Classpath dependencies List()
-[debug] [classes-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'classes-build' to '/home/domicio/_apps/classes/project/.bloop/classes-build.json'
-[success] Generated .bloop/classes-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[classes-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[classes-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'classes-build' to '/home/domicio/source/scala/classes/project/.bloop/classes-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/classes-build.json[0m

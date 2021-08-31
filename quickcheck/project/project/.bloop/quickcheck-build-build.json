@@ -201,7 +201,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/domicio/.cache/coursier/jvm/adopt@1.11.0-11",
+                "home": "/home/domicio/.jdks/openjdk-16.0.2",
                 "options": [
                     "-Duser.dir=/home/domicio/source/scala/quickcheck/project/project"
                 ]

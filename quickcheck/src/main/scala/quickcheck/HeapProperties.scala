@@ -63,8 +63,27 @@ class HeapProperties(heapInterface: HeapInterface) extends Properties("Heap"):
 
   // TODO Write more properties here to detect the bugs
   // in bogus BinomialHeap implementations
-  
 
+  // property("inserting unsorted items should return the same items sorted when removed") =
+  //   def isSorted(heap: List[Node]): Boolean =
+  //     if isEmpty(heap) then true
+  //     else
+  //       val m = findMin(heap)
+  //       val heap1 = deleteMin(heap)
+  //       isEmpty(heap1) || (m <= findMin(heap1) && isSorted(heap1))
+
+  //   forAll { (heap: List[Node]) =>
+  //     isSorted(heap)
+  //   }
+
+  property("meld") =
+    forAll { (heap0: List[Node], heap1: List[Node]) =>
+      val x1 = findMin(heap0)
+      val x2 = findMin(heap1)
+      val m = if x1 > x2 then x2 else x1
+      findMin(meld(deleteMin(heap0), insert(m, heap1))) == m
+    }
+  
   // random heap generator --- DO NOT MODIFY
   private lazy val genHeap: Gen[List[Node]] = oneOf(const(empty),
     for

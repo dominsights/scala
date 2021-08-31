@@ -2,13 +2,13 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/home/domicio/_apps/classes",
-        "workspaceDir": "/home/domicio/_apps/classes",
+        "directory": "/home/domicio/source/scala/classes",
+        "workspaceDir": "/home/domicio/source/scala/classes",
         "sources": [
-            "/home/domicio/_apps/classes/src/main/scala",
-            "/home/domicio/_apps/classes/src/main/scala-3",
-            "/home/domicio/_apps/classes/src/main/java",
-            "/home/domicio/_apps/classes/target/scala-3.0.1/src_managed/main"
+            "/home/domicio/source/scala/classes/src/main/scala",
+            "/home/domicio/source/scala/classes/src/main/scala-3",
+            "/home/domicio/source/scala/classes/src/main/java",
+            "/home/domicio/source/scala/classes/target/scala-3.0.1/src_managed/main"
         ],
         "dependencies": [
             
@@ -17,11 +17,11 @@
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar",
             "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
         ],
-        "out": "/home/domicio/_apps/classes/.bloop/root",
-        "classesDir": "/home/domicio/_apps/classes/.bloop/root/scala-3/classes",
+        "out": "/home/domicio/source/scala/classes/.bloop/root",
+        "classesDir": "/home/domicio/source/scala/classes/.bloop/root/scala-3/classes",
         "resources": [
-            "/home/domicio/_apps/classes/src/main/resources",
-            "/home/domicio/_apps/classes/target/scala-3.0.1/resource_managed/main"
+            "/home/domicio/source/scala/classes/src/main/resources",
+            "/home/domicio/source/scala/classes/target/scala-3.0.1/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -74,7 +74,7 @@
                 "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar",
                 "/home/domicio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"
             ],
-            "analysis": "/home/domicio/_apps/classes/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
+            "analysis": "/home/domicio/source/scala/classes/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -138,7 +138,7 @@
             "config": {
                 "home": "/home/domicio/.cache/coursier/jvm/adopt@1.11.0-11",
                 "options": [
-                    "-Duser.dir=/home/domicio/_apps/classes"
+                    "-Duser.dir=/home/domicio/source/scala/classes"
                 ]
             },
             "mainClass": [
