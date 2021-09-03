@@ -60,19 +60,11 @@ val list2: MyList[Vehicle] = new Cons[Vehicle](new Vehicle, Empty)
 // var contravariance: MyList[Car] = new Cons[Vehicle](new Vehicle, Empty) // MyList[-A]
 val ints: MyList[Int] = Cons[Int](1, Cons(2, Empty))
 
-ints.map(new Function1[Int, Int] {
-  override def apply(elem: Int): Int = elem * 2
-})
+ints.map(elem => elem * 2)
 
-ints.flatMap(new Function1[Int, MyList[Int]] {
-  override def apply(elem: Int): MyList[Int] =
-    Cons(elem, Cons(elem + 1, Empty))
-})
+ints.flatMap(elem => Cons(elem, Cons(elem + 1, Empty)))
 
-val concat: ((String, String) => String) =
-  new Function2[String, String, String] {
-    override def apply(a: String, b: String): String = a + b
-  }
+val concat: ((String, String) => String) = _ + _
 
 concat("1", "2")
   
