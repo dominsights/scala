@@ -68,12 +68,18 @@ val concat: ((String, String) => String) = _ + _
 
 concat("1", "2")
   
-def myFunction(num: Int): Function1[Int, Int] = // higher-order function
+def adder(num: Int): Function1[Int, Int] = // higher-order function
   return new Function1[Int, Int] {
     override def apply(otherNum: Int): Int =
       num + otherNum
   }
 
-val func = myFunction(1)
+def nicerAdder(num: Int)(otherNum: Int): Int = num + otherNum
+
+val func = adder(1)
 func(2)
-myFunction(1)(2) // curry function
+adder(1)(2) // curry function
+
+val niceFunc = nicerAdder(1)
+niceFunc(2)
+nicerAdder(1)(2) // curry function
