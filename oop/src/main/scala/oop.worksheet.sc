@@ -11,10 +11,10 @@ abstract class MyList[+A] {
   def filter(predicate: Function1[A, Boolean]): MyList[A]
   def ++[B >: A](list: MyList[B]): MyList[B]
   override def toString: String = "[" + printElements + "]"
-  def foreach[A](f: A => Unit): Unit
-  def sort(f: (x: A, y: A) => Int): MyList[A]
-  def zipWith[B >: A](list: MyList[B], f: (x: A, y: A) => B): MyList[B]
-  def fold[B >: A](acc: B)(f: B => B): B
+  def foreach(f: A => Unit): Unit
+  def sort(f: (A, A) => Int): MyList[A]
+  def zipWith[B,C](list: MyList[B], zip: (A, B) => C): MyList[C]
+  def fold[B](acc: B)(f: (B, A) => B): B
 }
 
 case object Empty extends MyList[Nothing] {
@@ -28,6 +28,12 @@ case object Empty extends MyList[Nothing] {
   def filter(predicate: Function1[Nothing, Boolean]): MyList[Nothing] = Empty
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
   override def printElements = ""
+  def foreach(f: Nothing => Unit): Unit = ()
+  def sort(f: (Nothing, Nothing) => Int): MyList[Nothing] = this
+  def zipWith[B,C](list: MyList[B], zip: (Nothing, B) => C): MyList[C] = 
+    if !list.isEmpty then throw RuntimeException("Lists do not have the same length.")
+    else Empty
+  def fold[B](acc: B)(f: (B, Nothing) => B): B = acc
 }
 
 case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
@@ -46,6 +52,23 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     if t.isEmpty then "" + h
     else s"${h} ${t.printElements}"
   def ++[B >: A](list: MyList[B]): MyList[B] = Cons(h, t ++ list)
+  def foreach(f: A => Unit): Unit = 
+    f(h)
+    t.foreach(f)
+  def sort(compare: (A, A) => Int): MyList[A] =
+    def insert(x: A, sortedList: MyList[A]): MyList[A] =
+      if sortedList.isEmpty then new Cons(x, Empty)
+      else if compare(x, sortedList.head) <= 0 then new Cons(x, sortedList)
+      else new Cons(sortedList.head, insert(x, sortedList.tail))
+    
+    val sortedTail = t.sort(compare)
+    insert(h, sortedTail)
+
+  def zipWith[B,C](list: MyList[B], f: (A, B) => C): MyList[C] = 
+    if list.isEmpty then throw RuntimeException("Lists do not have the same length.")
+    else new Cons(f(h, list.head), t.zipWith(list.tail, f))
+  def fold[B](acc: B)(f: (B, A) => B): B = 
+    t.fold(f(acc, h))(f)
 }
 
 trait MyPredicate[-T] { // replaced with Function1
@@ -62,11 +85,14 @@ class Car extends Vehicle
 val list1: MyList[Vehicle] = new Cons[Car](new Car, Empty)
 val list2: MyList[Vehicle] = new Cons[Vehicle](new Vehicle, Empty)
 // var contravariance: MyList[Car] = new Cons[Vehicle](new Vehicle, Empty) // MyList[-A]
-val ints: MyList[Int] = Cons[Int](1, Cons(2, Empty))
+val ints: MyList[Int] = Cons[Int](1, Cons(2, Cons(3, Empty)))
 
 ints.map(elem => elem * 2)
 
 ints.flatMap(elem => Cons(elem, Cons(elem + 1, Empty)))
+ints.fold(0)((x, y) => x + y)
+val unsorted: MyList[Int] = Cons[Int](3, Cons(2, Cons(1, Empty)))
+unsorted.sort((x, y) => x - y)
 
 val concat: ((String, String) => String) = _ + _
 
