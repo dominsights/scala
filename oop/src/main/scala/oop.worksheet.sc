@@ -142,4 +142,13 @@ val subtypeOnly = SubtypeOnly[Animal]
 // subtypeOnly.method(animal)
 subtypeOnly.method(cat)
 
+val numbers = Cons(1, Cons(2, Cons(3, Empty)))
+val chars = Cons('a', Cons('b', Cons('c', Empty)))
+val colors = Cons("black", Cons("white", Empty))
+
+for {
+  n <- numbers
+  c <- chars
+  color <- colors
+} yield "" + n + c + "-" + color
 
