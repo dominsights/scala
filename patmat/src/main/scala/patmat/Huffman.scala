@@ -1,5 +1,7 @@
 package patmat
 
+import scala.annotation.tailrec
+
 /**
  * A huffman code is represented by a binary tree.
  *
@@ -101,11 +103,12 @@ trait Huffman extends HuffmanInterface:
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
+
   def combine(trees: List[CodeTree]): List[CodeTree] = 
-    if trees.size <= 2 then trees
-    else 
-      val tail = trees.tail
-      combine(makeCodeTree(trees.head, tail.head) :: tail.tail)
+    if trees.size < 2 then trees
+    else
+      val left :: right :: tail = trees
+      makeCodeTree(left, right) :: tail
 
   /**
    * This function will be called in the following way:
@@ -121,7 +124,7 @@ trait Huffman extends HuffmanInterface:
   def until(done: List[CodeTree] => Boolean, merge: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = 
     if done(trees) then trees
     else
-      merge(trees)
+      until(done, merge)(merge(trees))
 
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -131,9 +134,7 @@ trait Huffman extends HuffmanInterface:
    */
   def createCodeTree(chars: List[Char]): CodeTree = 
     val trees = makeOrderedLeafList(times(chars))
-    val left :: right :: Nil = until(singleton, combine)(trees)
-
-    Fork(left, right, Huffman.chars(left) ::: Huffman.chars(right), weight(left) + weight(right))
+    until(singleton, combine)(trees).head
 
   // Part 3: Decoding
 
@@ -145,6 +146,7 @@ trait Huffman extends HuffmanInterface:
    */
   def decode(tree: CodeTree, bits: List[Bit]): List[Char] = 
     val original_tree = tree
+    @tailrec
     def decode_iter(tree: CodeTree, bits: List[Bit], acc: List[Char]): List[Char] =
       tree match
         case leaf: Leaf => 

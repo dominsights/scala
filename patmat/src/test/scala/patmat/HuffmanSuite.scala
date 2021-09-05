@@ -39,7 +39,7 @@ class HuffmanSuite extends munit.FunSuite:
     val leafs = List(Leaf('a', 1), Leaf('b', 2), Leaf('c', 3))
     val left = Leaf('a', 1)
     val right = Leaf('b', 2)
-    val fork = Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
+    val fork = makeCodeTree(left, right)
     assertEquals(combine(leafs), List(fork, Leaf('c', 3)))
   }
 
