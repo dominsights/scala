@@ -34,3 +34,23 @@ val just3 = Just(3)
 just3.map(_ * 2)
 just3.flatMap(x => Just(x % 2 == 0))
 just3.filter(_ % 2 == 0)
+
+
+// List replication
+
+val num = 3
+val arr = List(1,2,3)
+
+val result = for
+    i <- arr
+    n <- 1 to num
+yield i
+
+arr flatMap(x => 1 to num map(_ => x))
+
+// Map key collision
+
+val phoneNumbers = Map("Jim" -> 555, "Dom" -> 123, "JIM" -> 666)
+phoneNumbers.map(pair => pair(0).toLowerCase -> pair(1))
+
+// Overly simplified social network
