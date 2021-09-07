@@ -14,6 +14,25 @@ object Connection {
     def apply(host: String, port: String): Option[Connection] =
         if random.nextBoolean then Some(new Connection)
         else None
-
-    // try to establish a connection, if so - print the connect method
 }
+
+// with flatmap and map
+
+val host = config.get("host")
+val port = config.get("port")
+
+val connection = host.flatMap(h => port.flatMap(p => Connection(h, p)))
+val connectionStatus = connection.map(c => c.connect)
+connectionStatus.foreach(println)
+
+// alternative with for comprehensions
+
+val forConnectionStatus = for
+    host <- config.get("host")
+    port <- config.get("port")
+    connection <- Connection(host, port)
+yield connection.connect
+
+forConnectionStatus.foreach(println)
+
+
