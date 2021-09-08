@@ -16,6 +16,10 @@ class AnagramsSuite extends munit.FunSuite:
     assertEquals(sentenceOccurrences(List("abcd", "e")), List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))
   }
 
+  test("sentenceOccurrences: edcb a (5pts)") {
+    assertEquals(sentenceOccurrences(List("edcb", "a")), List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))
+  }
+
 
   test("dictionaryByOccurrences.get: eat (10pts)") {
     assertEquals(dictionaryByOccurrences.get(List(('a', 1), ('e', 1), ('t', 1))).map(_.toSet), Some(Set("ate", "eat", "tea")))

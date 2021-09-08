@@ -42,7 +42,9 @@ object Anagrams extends AnagramsInterface:
       .sortBy(c => c._1)
 
   /** Converts a sentence into its character occurrence list. */
-  def sentenceOccurrences(s: Sentence): Occurrences = ???
+  def sentenceOccurrences(s: Sentence): Occurrences =
+    s.flatMap(m => wordOccurrences(m))
+      .sortBy(c => c._1)
 
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
    *  the words that have that occurrence count.
