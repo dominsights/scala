@@ -1,6 +1,7 @@
 package forcomp
 
 import scala.io.{ Codec, Source }
+import scala.annotation.tailrec
 
 object Anagrams extends AnagramsInterface:
 
@@ -64,7 +65,6 @@ object Anagrams extends AnagramsInterface:
   lazy val dictionaryByOccurrences: Map[Occurrences, List[Word]] = 
     dictionary.groupBy(word => wordOccurrences(word))
   
-
   /** Returns all the anagrams of a given word. */
   def wordAnagrams(word: Word): List[Word] = 
     dictionaryByOccurrences
@@ -93,7 +93,15 @@ object Anagrams extends AnagramsInterface:
    *  Note that the order of the occurrence list subsets does not matter -- the subsets
    *  in the example above could have been displayed in some other order.
    */
-  def combinations(occurrences: Occurrences): List[Occurrences] = ???
+
+  def combinations(occurrences: Occurrences): List[Occurrences] = 
+    def comb(pair: (Char, Int), acc: List[Occurrences]): List[Occurrences] =
+      acc ++ (for
+                combination <- acc
+                i <- 1 to pair._2
+              yield (pair._1, i) :: combination)
+
+    occurrences.foldRight(List[Occurrences](Nil))(comb)
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
    *
@@ -105,7 +113,10 @@ object Anagrams extends AnagramsInterface:
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
    */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences = ???
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = 
+    val yMap = y.foldLeft(Map[Char, Int]())((acc, occ) => acc + (occ._1 -> occ._2))
+        x.map(occ => (occ._1, occ._2 - yMap.getOrElse(occ._1, 0)))
+        .filter(_._2 > 0)
 
   /** Returns a list of all anagram sentences of the given sentence.
    *
@@ -147,7 +158,17 @@ object Anagrams extends AnagramsInterface:
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = 
+    def occurrencesAnagrams(occurrences: Occurrences): List[Sentence] =
+      if (occurrences.isEmpty) List(Nil)
+      else for
+        combination <- combinations(occurrences)
+        word <- dictionaryByOccurrences.getOrElse(combination, Nil)
+        sequence <- occurrencesAnagrams(subtract(occurrences, wordOccurrences(word)))
+        if combination.nonEmpty
+      yield word :: sequence
+
+    occurrencesAnagrams(sentenceOccurrences(sentence))
 
 object Dictionary:
   def loadDictionary: List[String] =
