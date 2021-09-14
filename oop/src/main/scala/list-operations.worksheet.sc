@@ -12,4 +12,17 @@ nums.toString
 nums.mkString("(", "+", ")")
 nums.padTo(7, 10)
 nums.partition(n => n < 4)
-// partitionMap ...
+val xs = Iterable(1, "one", 2, "two", 3, "three") partitionMap {
+    case i: Int => Left(i)
+    case s: String => Right(s)
+}
+val otherNums = List(6,7,8,9)
+nums.patch(3, otherNums, 0)
+
+val list = List(1,2,5)
+val missing = List(3,4)
+list.patch(2, missing, 0)
+list.patch(2, missing, 1)
+
+val perm = "aba".permutations
+perm.mkString(", ")
