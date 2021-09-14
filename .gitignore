@@ -46,3 +46,7 @@ quickcheck/.metals/metals.log
 quickcheck/.metals/metals.lock.db
 forcomp/project/project/metals.sbt
 forcomp/.bsp/sbt.json
+classes/project/.bloop/
+classes/project/target/
+classes/project/project/target/
+quickcheck/project/

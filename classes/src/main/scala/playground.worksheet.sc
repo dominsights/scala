@@ -38,3 +38,27 @@ case class Square(width: Double):
 
 val square = Square(10)
 square.area
+
+def repeatedString(s: String, n: Long): Long = {
+    val times = n / s.size
+    val left = n % s.size
+    val pred = (c: Char) => c == 'a'
+    val count = s.filter(pred).size
+    val leftCount = s.substring(0, left.intValue).filter(pred).size
+    times * count + leftCount
+}
+
+repeatedString("aba", 6)
+repeatedString("aba", 7)
+repeatedString("aba", 9)
+repeatedString("aba", 2)
+repeatedString("aba", 1)
+
+val s = "aba"
+val times = 6 / s.size
+val left = 6 % s.size
+val leftCount = s.substring(0, left).filter(c => c == 'a').size
+val count = s.filter(c => c == 'a').size
+times * count + leftCount
+
+s.substring(0, 1L.intValue).filter(c => c == 'a').size
